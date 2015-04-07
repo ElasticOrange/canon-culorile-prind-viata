@@ -1,0 +1,129 @@
+@font-face {
+    font-family: nevis;
+    src: url(/fonts/nevis.ttf;);
+}
+
+html { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, nevis, sans-serif;
+}
+
+.content {
+    margin-top: 0px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.futer {
+    width: 1200px;
+    height: 380px;
+    position: absolute;
+    top: 400px;
+}
+
+.avantaje {
+    margin: auto;
+    font-family: CenturyGothic;
+    color:  #000000;
+    font-size: 23.164px; /* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    left: 234px;
+    top: 12px;
+}
+
+.unux {
+    margin: 0;
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 21.821px;
+    font-weight: 700;
+    /* text-align: center; */
+    top: 83px;
+    left: 237px;
+    position: absolute;
+    z-index: 2;
+}
+
+.excursie {
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 13.333px;
+    font-weight: 700;
+    text-align: left;
+    width: 131px;
+    height: 29px;
+    position: absolute;
+    top: 112px;
+    left: 240px;
+    margin: 0;
+}
+
+.treix {
+    margin: 0;
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 21.821px;
+    font-weight: 700;
+    /* text-align: center; */
+    top: 83px;
+    left: 460px;
+    position: absolute;
+    z-index: 2;
+}
+
+.pegas {
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 13.333px;
+    font-weight: 700;
+    text-align: left;
+    width: 117px;
+    height: 27px;
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    margin: 0;
+}
+
+.cincix {
+    margin: 0;
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 21.821px;
+    font-weight: 700;
+    /* text-align: center; */
+    top: 83px;
+    left: 703px;
+    position: absolute;
+    z-index: 2;
+}
+
+.imprimanta {
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 13.333px;
+    font-weight: 700;
+    text-align: left;
+    width: 122px;
+    height: 27px;
+    position: absolute;
+    top: 110px;
+    left: 703px;
+    margin: 0;
+}
+
+.consumabile-text {
+    top: 185px;
+    left: 235px;
+    margin: 0;
+    position: absolute;
+    font-family: CenturyGothic;
+    color: #222221;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    width: 443px;
+    height: 25px;
+}
