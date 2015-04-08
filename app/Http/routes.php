@@ -13,3 +13,4 @@
 
 
 Route::get('/', 'HomeController@index');
+Route::get('/colors', 'HomeController@getIndex');

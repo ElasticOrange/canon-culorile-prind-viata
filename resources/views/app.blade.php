@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/my.css">
         <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>

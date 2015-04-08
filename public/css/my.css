@@ -153,3 +153,35 @@ html {
     z-index: 2;
     line-height: normal;
 }
+
+.colorstop {
+    position: relative;
+}
+
+.slider {
+    background-color: #ffffff;
+    width: 700px;
+    height: 2px;
+    position: absolute;
+    z-index: 2;
+    top: 365px;
+    left: 235px;
+}
+
+#slider2 {
+    background-color: #ffffff;
+    width: 455px;
+    height: 2px;
+    position: relative;
+    z-index: 2;
+    /* top: 365px; */
+    left: 235px;
+}
+
+.sageata {
+    position: absolute;
+    z-index: 3;
+    top: -11.5px;
+    left: 10px;
+    width: 16px;
+}
