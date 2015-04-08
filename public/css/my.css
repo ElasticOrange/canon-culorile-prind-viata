@@ -19,6 +19,7 @@ html {
     height: 380px;
     position: absolute;
     top: 400px;
+    z-index: 5;
 }
 
 .avantaje {
@@ -163,7 +164,7 @@ html {
     width: 700px;
     height: 2px;
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     top: 365px;
     left: 235px;
 }
@@ -184,4 +185,16 @@ html {
     top: -11.5px;
     left: 10px;
     width: 16px;
+}
+
+.colorata {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 235px;
+}
+
+#ascuns {
+    overflow: hidden;
+    width: 235px;
 }
