@@ -10,9 +10,11 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="colorata" id="ascuns">
 		<img src="/img/colorata.png" />
 	</div>
+
 	<div class="cerc">
 		<img src="/img/cerc-colors.png" />
 		<h3 class="cerc-text">Cartusele originale au culori intense</h3>

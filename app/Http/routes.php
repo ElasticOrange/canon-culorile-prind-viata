@@ -14,3 +14,5 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/colors', 'HomeController@getIndex');
+
+Route::get('/inscriere', 'EntryController@getIndex');
