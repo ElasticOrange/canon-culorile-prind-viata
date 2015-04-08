@@ -183,7 +183,7 @@ html {
     position: absolute;
     z-index: 3;
     top: -11.5px;
-    left: 10px;
+    /*left: 10px;*/
     width: 16px;
 }
 
@@ -197,4 +197,54 @@ html {
 #ascuns {
     overflow: hidden;
     width: 235px;
+}
+
+.cerc {
+    display: none;
+    position: absolute;
+    z-index: 6;
+    border-radius: 50%;
+    background-color:  #e21e26;
+    width: 302px;
+    height: 301px;
+    top: 27px;
+    left: 438px;
+}
+
+.cerc-text {
+    font-family: CenturyGothic;
+    color: #ffffff;
+    font-size: 38.209px;
+    font-weight: 400;
+    /* line-height: 110.774px; */
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    width: 238px;
+    height: 120px;
+    top: 50px;
+    left: 30px;
+}
+
+.text-buton-cerc {
+    font-family: CenturyGothic;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 215px;
+    left: 70px;
+    width: 124px;
+    height: 19px;
+}
+
+.buton-cerc {
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 240px;
+    left: 200px;
 }
