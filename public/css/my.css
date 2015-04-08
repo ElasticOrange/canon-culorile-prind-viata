@@ -248,3 +248,111 @@ html {
     top: 240px;
     left: 200px;
 }
+
+.btn-trimite {
+    position: absolute;
+    border-radius: 5px;
+    background-color:  #cc0000;
+    width: 166px;
+    height: 46px;
+    top: 300px;
+    left: 277px;
+    z-index: 2;
+}
+
+.text-incriere {
+    position: absolute;
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 23.164px;
+    font-weight: 400;
+    text-align: left;
+    left: 277px;
+}
+
+.border-inscriere {
+    top: 13px;
+    position: relative;
+    border-width: 1px;
+    border-color:  rgba(1, 1, 1, 0.21);
+    border-style: solid;
+    width: 698px;
+    height: 366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    position: absolute;
+    border-width: 1px;
+    border-color:  #010101;
+    border-style: solid;
+    width: 278px;
+    height: 33px;
+}
+
+.checkbox2 {
+    top: 277px;
+    left: 187px;
+    position: absolute;
+}
+
+.checkbox3 {
+    top: 253px;
+    left: 207px;
+    position: absolute;
+    font-family: CenturyGothic;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.numebox {
+    top: 64px;
+    left: 250px;
+}
+
+.numelabel {
+    top: 78px;
+    left: 160px;
+}
+
+.emailbox {
+    top: 114px;
+    left: 250px;
+}
+
+.emaillabel {
+    top: 129px;
+    left: 160px;
+}
+
+.telefonbox {
+    top: 164px;
+    left: 250px;
+}
+
+.telefonlabel {
+    top: 179px;
+    left: 160px;
+}
+
+.cartusbox {
+    top: 214px;
+    left: 250px;
+}
+
+.cartuslabel {
+    top: 229px;
+    left: 160px;
+}
+
+.forlabel {
+    position: absolute;
+    font-family: CenturyGothic;
+    color:  #000000;
+    font-size: 19px; /* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: left;
+}
