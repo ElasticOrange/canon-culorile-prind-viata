@@ -20,20 +20,18 @@ html {
     margin-right: auto;
     width: 700px;
     height: 380px;
-    position: absolute;
-    top: 400px;
-    z-index: 5;
+    position: relative;
 }
 
 .avantaje {
     margin: auto;
     font-family: CenturyGothic;
-    color:  #000000;
-    font-size: 23.164px; /* Approximation due to font substitution */
+    color: #000000;
+    font-size: 24px;
     font-weight: 400;
     text-align: left;
     position: absolute;
-    left: 234px;
+    left: 54px;
     top: 12px;
 }
 
@@ -45,7 +43,7 @@ html {
     font-weight: 700;
     /* text-align: center; */
     top: 83px;
-    left: 237px;
+    /*left: 237px;*/
     position: absolute;
     z-index: 2;
 }
@@ -60,7 +58,7 @@ html {
     height: 29px;
     position: absolute;
     top: 112px;
-    left: 240px;
+    /*left: 240px;*/
     margin: 0;
 }
 
@@ -72,7 +70,7 @@ html {
     font-weight: 700;
     /* text-align: center; */
     top: 83px;
-    left: 460px;
+    left: 223px;
     position: absolute;
     z-index: 2;
 }
@@ -87,7 +85,7 @@ html {
     height: 27px;
     position: absolute;
     top: 110px;
-    left: 460px;
+    left: 223px;
     margin: 0;
 }
 
@@ -99,7 +97,7 @@ html {
     font-weight: 700;
     /* text-align: center; */
     top: 83px;
-    left: 703px;
+    left: 480px;
     position: absolute;
     z-index: 2;
 }
@@ -114,21 +112,20 @@ html {
     height: 27px;
     position: absolute;
     top: 110px;
-    left: 703px;
+    left: 480px;
     margin: 0;
 }
 
 .consumabile-text {
-    top: 185px;
-    left: 235px;
+    top: 195px;
     margin: 0;
     position: absolute;
     font-family: CenturyGothic;
     color: #222221;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
-    width: 443px;
+    width: 430px;
     height: 25px;
 }
 
@@ -163,6 +160,16 @@ html {
     background: url(/img/big_pic_bw.jpg) no-repeat top center fixed;
     height: 400px;
     width: 100%;
+    opacity: 1;
+}
+
+.ascuns {
+    overflow: hidden;
+    background: url(/img/big_pic_color.jpg) no-repeat top center fixed;
+    position: relative;
+    opacity: 0;
+    width: 100%;
+    height: 400px;
 }
 
 .slider {
@@ -193,18 +200,10 @@ html {
     width: 16px;
 }
 
-.colorata {
+/*.colorata {
     position: absolute;
     z-index: 3;
-    width: 100%;
-    height: 400px;
-}
-
-#ascuns {
-    overflow: hidden;
-    /*width: 235px;*/
-    opacity: 0;
-}
+}*/
 
 .cerc {
     display: none;
@@ -362,4 +361,9 @@ html {
     font-size: 19px; /* Approximation due to font substitution */
     font-weight: 400;
     text-align: left;
+}
+
+.logo-cartuse {
+    top: 75px;
+    position: absolute;
 }

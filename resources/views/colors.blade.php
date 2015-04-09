@@ -5,11 +5,10 @@
 	<div class="slider">
 			<div class="sageata">
 				<img src="/img/sageata-slider.png" />
-		</div>
+			</div>
 	</div>
 	
-	<div class="colorata" id="ascuns">
-		<img src="/img/big_pic_color.jpg" />
+	<div class="ascuns">
 	</div>
 
 	<div class="cerc">
@@ -33,9 +32,9 @@ $('.slider').slider({
 
 function handleSliderChange(event, slider){
           $(".sageata").css('left', slider.value + '%');
-          $("#ascuns").css('opacity', slider.value/100);
+          $(".ascuns").css('opacity', slider.value/100);
 
-          if ($("#ascuns").css('width') >= '690px') 
+          if ($(".ascuns").css('opacity') >= '0.95') 
           	{
           		return $(".cerc").show();
           	};
