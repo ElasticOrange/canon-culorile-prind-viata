@@ -12,8 +12,18 @@ class HomeController extends Controller {
 		return view('home');
 	}
 
-	public function getIndex()
+	public function getColors()
 	{
 		return view('colors');	
+	}
+
+	public function getSharp()
+	{
+		return view('sharpness');
+	}
+
+	public function getDurata()
+	{
+		return view('durata');
 	}
 }

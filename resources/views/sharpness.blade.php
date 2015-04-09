@@ -1,26 +1,26 @@
 @extends('app')
 
 @section('content')
-<div class="colorstop">
+<div class="sharp">
 	<div class="slider">
 			<div class="sageata">
 				<img src="/img/sageata-slider2.jpg" />
 			</div>
 	</div>
 	
-	<div class="ascuns">
-	</div>
+	<div class="ascuns2"></div>
 
-	<div class="cerc">
-		<img src="/img/cerc-colors.png" />
-		<h3 class="cerc-text">Cartusele originale au culori intense</h3>
-		<a href="/sharpness">
+	<div class="cerc-sharp">
+		<img src="/img/bulina_diagrame.png" />
+		<h3 class="cerc-text">Cartusele originale au calitate</h3>
+		<a href="/durata">
 			<h3 class="text-buton-cerc">Mai departe</h3>
 			<img class= "buton-cerc" src="/img/homebuton.png" />
 		</a>
 	</div>
+	
 </div>
-<!-- .css('width', slider.value/100*465+235 + 'px') -->
+
 <script>
 $('.slider').slider({
 	range: true,
@@ -32,11 +32,11 @@ $('.slider').slider({
 
 function handleSliderChange(event, slider){
           $(".sageata").css('left', slider.value + '%');
-          $(".ascuns").css('opacity', slider.value/100+0.10);
+          $(".ascuns2").css('opacity', slider.value/100+0.10);
 
-          if ($(".ascuns").css('opacity') >= '0.95') 
+          if ($(".ascuns2").css('opacity') >= '0.95') 
           	{
-          		return $(".cerc").show();
+          		return $(".cerc-sharp").show();
           	};
 }
 </script>

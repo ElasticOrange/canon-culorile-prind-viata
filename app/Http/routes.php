@@ -15,11 +15,9 @@
 Route::get('/', 'HomeController@index');
 Route::post('/', 'HomeController@index');
 
-Route::get('/colors', 'HomeController@getIndex');
+Route::get('/colors', 'HomeController@getColors');
+Route::get('/sharpness', 'HomeController@getSharp');
+Route::get('/durata', 'HomeController@getDurata');
 
-// Route::get('/facebook/login', function()
-// {
-	
-// } 'EntryController@getLogin');
 Route::get('/inscriere', 'EntryController@getIndex');
 Route::post('/inscriere', 'EntryController@postIndex');
