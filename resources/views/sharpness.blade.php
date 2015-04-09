@@ -16,7 +16,7 @@
 
 	<div class="cerc-sharp">
 		<img src="/img/bulina_diagrame.png" />
-		<h3 class="cerc-text">Cartusele originale au calitate</h3>
+		<h3 class="cerc-text2">Consumabilele Canon oferă calitate materialelor</h3>
 		<a href="/durata">
 			<h3 class="text-buton-cerc">Mai departe</h3>
 			<img class= "buton-cerc" src="/img/homebuton.png" />
