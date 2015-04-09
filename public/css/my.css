@@ -192,6 +192,14 @@ html {
     opacity: 1;
 }
 
+.durata {
+    position: relative;
+    background: url(/img/big_pic_color.jpg) no-repeat top center fixed;
+    height: 400px;
+    width: 100%;
+    opacity: 1;
+}
+
 .slider {
     background-color: #ffffff;
     width: 700px;
@@ -221,10 +229,9 @@ html {
     width: 16px;
 }
 
-/*.colorata {
-    position: absolute;
-    z-index: 3;
-}*/
+.sageata text {
+    color: white;
+}
 
 .cerc {
     display: none;
@@ -234,6 +241,18 @@ html {
     width: 302px;
     height: 306px;
     top: -358px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cerc-durata {
+    display: none;
+    position: relative;
+    z-index: 6;
+    border-radius: 50%;
+    width: 302px;
+    height: 306px;
+    /*top: -358px;*/
     margin-left: auto;
     margin-right: auto;
 }
