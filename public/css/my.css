@@ -7,6 +7,10 @@ html {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, nevis, sans-serif;
 }
 
+body {
+    background-color: #eaeaea
+}
+
 .content {
     margin-top: 0px;
     /*width: 1200px;*/
@@ -137,7 +141,7 @@ html {
 
 .hometop {
     position: relative;
-    background: url(/img/big_pic_bw.jpg) no-repeat top center fixed;
+    background: url(/img/big_pic_bw_cubulina.jpg) no-repeat top center fixed;
     height: 400px;
     width: 100%;
 }
@@ -243,6 +247,16 @@ html {
     top: -358px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.cerc-home {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 358px;
+    height: 355px;
+    top: 25px;
 }
 
 .cerc-durata {
