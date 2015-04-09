@@ -1,6 +1,6 @@
 <div class="futer">
 	<h3 class="avantaje">Descoperă avantajele consumabilelor Canon si câstigă premii</h3>
-	<img src="/img/footer.png" />
+	<!-- <img src="/img/footer.png" /> -->
 		<h3 class="unux">1x</h3>
 		<h4 class="excursie">O excursie “colorată” în Europa</h4>
 		<h3 class="treix">3x</h3>

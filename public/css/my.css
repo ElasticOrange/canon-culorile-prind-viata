@@ -9,13 +9,16 @@ html {
 
 .content {
     margin-top: 0px;
-    width: 1200px;
+    /*width: 1200px;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 .futer {
-    width: 1200px;
+    background-color:  #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
     height: 380px;
     position: absolute;
     top: 400px;
@@ -157,6 +160,9 @@ html {
 
 .colorstop {
     position: relative;
+    background: url(/img/big_pic_bw.jpg) no-repeat top center fixed;
+    height: 400px;
+    width: 100%;
 }
 
 .slider {
@@ -190,13 +196,14 @@ html {
 .colorata {
     position: absolute;
     z-index: 3;
-    top: 0;
-    left: 235px;
+    width: 100%;
+    height: 400px;
 }
 
 #ascuns {
     overflow: hidden;
-    width: 235px;
+    /*width: 235px;*/
+    opacity: 0;
 }
 
 .cerc {
