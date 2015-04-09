@@ -11,6 +11,10 @@
 	<div class="ascuns">
 	</div>
 
+	<div>
+		<h2 class="culori-intense">Iti doresti culori intense ?</h2>
+	</div>
+
 	<div class="cerc">
 		<img src="/img/cerc-colors.png" />
 		<h3 class="cerc-text">Cartusele originale au culori intense</h3>
@@ -37,7 +41,11 @@ function handleSliderChange(event, slider){
           if ($(".ascuns").css('opacity') >= '0.95') 
           	{
           		return $(".cerc").show();
-          	};
+          	}
+          	else if ($(".ascuns").css('opacity') >= '0.15')
+          	{
+          		return $(".culori-intense").hide();
+          	}
 }
 </script>
 @endsection

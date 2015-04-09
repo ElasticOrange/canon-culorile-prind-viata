@@ -4,11 +4,15 @@
 <div class="sharp">
 	<div class="slider">
 			<div class="sageata">
-				<img src="/img/sageata-slider2.jpg" />
+				<img src="/img/mutasidescoperacalitatea.jpg" />
 			</div>
 	</div>
 	
 	<div class="ascuns2"></div>
+
+	<div>
+		<h2 class="materiale-calitate">Îți dorești materiale de calitate ?</h2>
+	</div>
 
 	<div class="cerc-sharp">
 		<img src="/img/bulina_diagrame.png" />
@@ -37,6 +41,10 @@ function handleSliderChange(event, slider){
           if ($(".ascuns2").css('opacity') >= '0.95') 
           	{
           		return $(".cerc-sharp").show();
+          	}
+          	else if ($(".ascuns2").css('opacity') >= '0.15')
+          	{
+          		return $(".materiale-calitate").hide();
           	};
 }
 </script>

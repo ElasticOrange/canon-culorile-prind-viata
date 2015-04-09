@@ -4,7 +4,7 @@
 <div class="durata">
 	<div class="slider">
 			<div class="sageata">
-				<img src="/img/sageata-slider2.jpg" />
+				<img src="/img/mutasidescoperadurata.jpg" />
 			</div>
 	</div>
 
@@ -17,6 +17,7 @@
 		</a>
 	</div>
 </div>
+<div class="nevoie"></div>
 
 <script>
 $('.slider').slider({
@@ -29,17 +30,17 @@ $('.slider').slider({
 
 function handleSliderChange(event, slider){
           $(".sageata").css('left', slider.value + '%');
-          $(".sageata").text(slider.value*3+30 + 'ani');
-          // $(".ascuns2").css('opacity', slider.value/100+0.10);
+          // $(".sageata").text(slider.value*3+30 + 'ani');
+          $(".nevoie").css('opacity', slider.value/100+0.10);
 
-          if ($(".sageata").css('left') >= '85%') 
+          if ($(".nevoie").css('opacity') >= '0.95') 
           	{
           		return $(".cerc-durata").show();
           	}
-          	// else
-          	// {
-          	// 	return $(".cerc-durata").hide();
-          	// };
+          	else
+          	{
+          		return $(".cerc-durata").hide();
+          	};
 }
 </script>
 @endsection

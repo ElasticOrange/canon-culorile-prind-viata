@@ -9,4 +9,5 @@
 		<h4 class="imprimanta">Imprimantă Canon Pixma MG7550</h4>
 		<h2 class="consumabile-text">Folosind consumabile originale Canon, beneficiati de culori intense, 
 		calitate si durabilitate în imprimarea materialelor dumneavoastră.</h4>
+		<h4 class="steluta">* Produsele participante în promoție sunt: consumabile Canon Maxify, Canon Pixma și Canon I-SENSYS.</h4>
 </div>
