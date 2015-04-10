@@ -9,14 +9,20 @@
 		<span class="sli3_f"></span>
 	</div>
 
-	<div class="cerc-durata">
+	<div class="cerc-durata-inceput">
 		<img src="/img/cerc-colors.png" />
-		<h3 class="cerc-text2">Consumabilele Canon oferă durată materialelor</h3>
+		<h3 class="cerc-text2">Îți dorești că materialele tale să dureze în timp?</h3>
+	</div>
+
+	<div class="cerc-durata-final">
+		<img src="/img/cerc-colors.png" />
+		<h3 class="cerc-text-durata-final">Felicitări! Ai descoperit avantajele consumabilelor Canon! Înscrie în concurs codul consumabilului tău și câștigă multe premii!</h3>
 		<a href="/inscriere">
 			<h3 class="text-buton-cerc">Mai departe</h3>
 			<img class= "buton-cerc" src="/img/homebuton.png" />
 		</a>
 	</div>
+
 </div>
 <div class="nevoie"></div>
 
@@ -38,11 +44,11 @@ function handleSliderChange(event, slider){
 
 	if (($(".nevoie").css('opacity') >= '0.15') && ($(".nevoie").css('opacity') <= '0.25'))
 	{
-		return $(".cerc-durata").hide();
+		return $(".cerc-durata-inceput").hide();
 	}
 	else if ($(".nevoie").css('opacity') >= '0.9') 
 	{
-		return $(".cerc-durata").show();
+		return $(".cerc-durata-final").show();
 	}
 
 	$(".sli3_f").text($(".slider").slider("value") + "%");

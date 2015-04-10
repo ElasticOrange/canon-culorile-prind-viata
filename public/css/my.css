@@ -307,6 +307,44 @@ body {
     margin-right: auto;
 }
 
+.cerc-durata-inceput {
+    position: relative;
+    z-index: 6;
+    border-radius: 50%;
+    width: 302px;
+    height: 306px;
+    top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cerc-text-durata-final {
+    font-family: CenturyGothic;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    width: 238px;
+    height: 80px;
+    top: 57px;
+    left: 30px;
+}
+
+.cerc-durata-final {
+    display: none;
+    position: relative;
+    z-index: 6;
+    border-radius: 50%;
+    width: 302px;
+    height: 306px;
+    top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .cerc-sharp {
     display: none;
     position: relative;
