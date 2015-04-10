@@ -11,7 +11,7 @@
 	<div class="cerc-durata">
 		<img src="/img/cerc-colors.png" />
 		<h3 class="cerc-text2">Consumabilele Canon oferă durată materialelor</h3>
-		<a href="#">
+		<a href="/inscriere">
 			<h3 class="text-buton-cerc">Mai departe</h3>
 			<img class= "buton-cerc" src="/img/homebuton.png" />
 		</a>

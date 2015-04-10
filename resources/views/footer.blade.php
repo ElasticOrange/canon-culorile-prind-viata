@@ -10,4 +10,5 @@
 		<h2 class="consumabile-text">Folosind consumabile originale Canon, beneficiati de culori intense, 
 		calitate si durabilitate în imprimarea materialelor dumneavoastră.</h4>
 		<h4 class="steluta">* Produsele participante în promoție sunt: consumabile Canon Maxify, Canon Pixma și Canon I-SENSYS.</h4>
+	<a target="_blank" href="/doc/Regulamentulcampaniei-Culorileprindviata.pdf" class="regulament">Regulament</a>
 </div>

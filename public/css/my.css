@@ -380,6 +380,7 @@ body {
     top: 300px;
     left: 277px;
     z-index: 2;
+    color: white;
 }
 
 .text-incriere {
@@ -402,6 +403,7 @@ body {
     height: 366px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
 }
 
 .form-control {
@@ -482,4 +484,11 @@ body {
 .logo-cartuse {
     top: 75px;
     position: absolute;
+}
+
+.regulament {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    top: 375px;
 }
