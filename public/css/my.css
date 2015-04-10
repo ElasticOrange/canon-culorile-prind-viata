@@ -492,3 +492,10 @@ body {
     color: black;
     top: 375px;
 }
+
+.sli3_f {
+    position: absolute;
+    z-index: 3;
+    top: -35.5px;
+    color: white;
+}
