@@ -10,7 +10,7 @@ $(document).ready(function() {
             telefon: $('[data-telefon=true]').val(),
             codcartus: $('[data-codcartus=true]').val(),
             email: $('[data-email=true]').val(),
-            checkbox: $('[data-checkbox=true]').is(':checked'),
+            checkbox: $('[data-checkbox=true]').is(':checked') ? 1 : 0,
             };
         return $.ajax(
             {   

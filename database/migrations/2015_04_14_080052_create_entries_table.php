@@ -19,7 +19,7 @@ class CreateEntriesTable extends Migration {
 			$table->string('email')->unique();
 			$table->string('telefon');
 			$table->string('codcartus');
-			$table->string('checkbox');
+			$table->boolean('checkbox');
 			$table->timestamps();
 		});
 	}

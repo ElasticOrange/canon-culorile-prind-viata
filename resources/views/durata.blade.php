@@ -6,7 +6,7 @@
 		<div class="sageata">
 			<img src="/img/mutasidescoperadurata.jpg" />
 		</div>
-		<span class="sli3_f"></span>
+		<span class="sly">0 ani</span>
 	</div>
 
 	<div class="cerc-durata-inceput">
@@ -37,9 +37,8 @@ $('.slider').slider({
 
 function handleSliderChange(event, slider){
 	$(".sageata").css('left', slider.value + '%');
-	$(".sli3_f").text(slider.value*3+30 + " ani");
-	$(".sli3_f").css('left', slider.value + '%');
-	// $(".sageata").text(slider.value*3+30 + 'ani');
+	$(".sly").text(slider.value*3+30 + " ani");
+	$(".sly").css('left', slider.value + '%');
 	$(".nevoie").css('opacity', slider.value/100+0.10);
 
 	if (($(".nevoie").css('opacity') >= '0.15') && ($(".nevoie").css('opacity') <= '0.25'))
@@ -50,8 +49,6 @@ function handleSliderChange(event, slider){
 	{
 		return $(".cerc-durata-final").show();
 	}
-
-	$(".sli3_f").text($(".slider").slider("value") + "%");
 }
 </script>
 @endsection
