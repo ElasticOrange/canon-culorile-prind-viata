@@ -2,8 +2,11 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\CreateEntryRequest;
+use App\Entry;
+use Request;
 
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 
 class EntryController extends Controller {
 
@@ -12,24 +15,16 @@ class EntryController extends Controller {
 		return view('inscriere');
 	}
 
-	public function handleProviderCallback()
+	public function postIndex(CreateEntryRequest $request)
 	{
-	    $user = Socialize::with('facebook')->user();
+		$input = $request->all();
 
-	    // $user->token;
-	    // OAuth Two Providers
-		$token = $user->token;
+		Entry::create($input);
 
-		// All Providers
-		$user->getId();
-		$user->getNickname();
-		$user->getName();
-		$user->getEmail();
-	}
-
-	public function getLogin()
-	{
-		return Socialize::with('facebook')->redirect();
+		return response()->json([
+                                  'status' => 'OK'
+                                , 'message' => 'Formul nu a fost completat'
+                                ]);
 	}
 
 }
