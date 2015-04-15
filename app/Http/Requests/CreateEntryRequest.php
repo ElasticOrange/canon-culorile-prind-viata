@@ -25,7 +25,6 @@ class CreateEntryRequest extends Request {
           'nume' => 'required|min:3'
         , 'codcartus' => 'required'
         , 'email' => 'required|email|unique:entries'
-        , 'telefon' => 'required'
 		];
 	}
 
