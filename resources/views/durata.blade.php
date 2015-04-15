@@ -31,14 +31,14 @@ $('.slider').slider({
 	range: true,
 	min: 0,
 	max: 90,
-	value: 1,
+	value: 0,
     slide: handleSliderChange
 });
 
 function handleSliderChange(event, slider){
 	$(".sageata2").css('left', slider.value + '%');
-	$(".sly2").text(slider.value*3+30 + " ani");
 	$(".sly2").css('left', slider.value + '%');
+	$(".sly2").text(slider.value*3+30 + " ani");
 	$(".nevoie").css('opacity', slider.value/100+0.10);
 
 	if (($(".nevoie").css('opacity') >= '0.15') && ($(".nevoie").css('opacity') <= '0.25'))
@@ -48,6 +48,7 @@ function handleSliderChange(event, slider){
 	else if ($(".nevoie").css('opacity') >= '0.9') 
 	{
 		return $(".cerc-durata-final").show();
+		return $(".sly2").text("depinde de tine");
 	}
 }
 </script>

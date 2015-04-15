@@ -3,9 +3,10 @@
 @section('content')
 <div class="colorstop">
 	<div class="slider">
-			<div class="sageata">
-				<img src="/img/sageata-slider2.png" />
-			</div>
+		<div class="sageata">
+			<img src="/img/sageata-slider2.png" />
+		</div>
+		<span class="sly">0%</span>
 	</div>
 	
 	<div class="ascuns">
@@ -15,6 +16,7 @@
 		<img src="/img/cerc-colors.png" />
 		<h3 class="cerc-text-colors">Îți dorești culori intense?</h3>
 	</div>
+
 
 	<div class="cerc">
 		<img src="/img/cerc-colors.png" />
@@ -35,17 +37,19 @@ $('.slider').slider({
 });
 
 function handleSliderChange(event, slider){
-          $(".sageata").css('left', slider.value + '%');
-          $(".ascuns").css('opacity', slider.value/100+0.05);
+	$(".sageata").css('left', slider.value + '%');
+	$(".sly").css('left', slider.value + '%');
+	$(".sly").text(slider.value+5 + "%");
+	$(".ascuns").css('opacity', slider.value/100+0.05);
 
-          if (($(".ascuns").css('opacity') >= '0.15') && ($(".ascuns").css('opacity') <= '0.25'))
-          	{
-          		return $(".cerc-colors-inceput").hide();
-          	}
-          	else if ($(".ascuns").css('opacity') >= '0.9')
-          	{
-          		return $(".cerc").show();
-          	}
+	if (($(".ascuns").css('opacity') >= '0.15') && ($(".ascuns").css('opacity') <= '0.25'))
+		{
+			return $(".cerc-colors-inceput").hide();
+		}
+		else if ($(".ascuns").css('opacity') >= '0.9')
+		{
+			return $(".cerc").show();
+		}
 }
 </script>
 @endsection

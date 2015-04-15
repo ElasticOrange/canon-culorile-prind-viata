@@ -3,9 +3,10 @@
 @section('content')
 <div class="sharp">
 	<div class="slider">
-			<div class="sageata">
-				<img src="/img/mutasidescoperacalitatea.png" />
-			</div>
+		<div class="sageata">
+			<img src="/img/mutasidescoperacalitatea.png" />
+		</div>
+		<span class="sly">27%</span>
 	</div>
 	
 	<div class="ascuns2"></div>
@@ -36,17 +37,19 @@ $('.slider').slider({
 });
 
 function handleSliderChange(event, slider){
-          $(".sageata").css('left', slider.value + '%');
-          $(".ascuns2").css('opacity', slider.value/100+0.10);
+	$(".sageata").css('left', slider.value + '%');
+	$(".sly").css('left', slider.value + '%');
+	$(".sly").text((slider.value/100*70+37).toFixed(0) + "%");
+	$(".ascuns2").css('opacity', slider.value/100+0.10);
 
-          if (($(".ascuns2").css('opacity') >= '0.15') && ($(".ascuns2").css('opacity') <= '0.25'))
-          	{
-          		return $(".cerc-sharp-inceput").hide();
-          	}
-          	else if ($(".ascuns2").css('opacity') >= '0.9')
-          	{
-          		return $(".cerc-sharp").show();
-          	}
+	if (($(".ascuns2").css('opacity') >= '0.15') && ($(".ascuns2").css('opacity') <= '0.25'))
+		{
+			return $(".cerc-sharp-inceput").hide();
+		}
+		else if ($(".ascuns2").css('opacity') >= '0.9')
+		{
+			return $(".cerc-sharp").show();
+		}
 }
 </script>
 @endsection
