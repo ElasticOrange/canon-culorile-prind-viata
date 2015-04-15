@@ -12,7 +12,7 @@
 
 	<div class="cerc-sharp-inceput">
 		<img src="/img/bulina_diagrame.png" />
-		<h3 class="cerc-text2-inceput">Îți dorești materiale de calitate ?</h3>
+		<h3 class="cerc-text2-inceput">Îți dorești materiale de calitate?</h3>
 	</div>
 
 	<div class="cerc-sharp">

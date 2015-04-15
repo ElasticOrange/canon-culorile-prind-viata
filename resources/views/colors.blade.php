@@ -13,7 +13,7 @@
 
 	<div class="cerc-colors-inceput">
 		<img src="/img/cerc-colors.png" />
-		<h3 class="cerc-text-colors">Îți dorești culori intense ?</h3>
+		<h3 class="cerc-text-colors">Îți dorești culori intense?</h3>
 	</div>
 
 	<div class="cerc">
