@@ -17,7 +17,6 @@ class CreateEntriesTable extends Migration {
 			$table->increments('id');
 			$table->string('nume');
 			$table->string('email')->unique();
-			$table->string('telefon');
 			$table->string('codcartus');
 			$table->boolean('checkbox');
 			$table->timestamps();

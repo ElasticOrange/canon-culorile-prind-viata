@@ -7,7 +7,7 @@
 		<img src="/img/bulina_pag1.png" />
 	<a href="/colors">
 		<img src="/img/homebuton.png" class="homebuton" />
-		<h4 class="homelink">Intra in aplicatie</h4>
+		<h4 class="homelink">Intră în aplicaţie</h4>
 	</a>
 	</div>
 </div>

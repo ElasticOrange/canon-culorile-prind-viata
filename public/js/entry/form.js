@@ -7,7 +7,6 @@ $(document).ready(function() {
         e.preventDefault();
         p = {
             nume: $('[data-nume=true]').val(),
-            telefon: $('[data-telefon=true]').val(),
             codcartus: $('[data-codcartus=true]').val(),
             email: $('[data-email=true]').val(),
             checkbox: $('[data-checkbox=true]').is(':checked') ? 1 : 0,
@@ -39,12 +38,6 @@ $(document).ready(function() {
                     {
                         console.log('Nu exista nume');
                         $('[data-nume=true]').addClass("warning");
-                    }
-                    
-                    if (typeof p.responseJSON.telefon != 'undefined')
-                    {
-                        $('[data-telefon=true]').addClass("warning");
-                        console.log('Nu exista telefon');
                     }
                     
                     if (typeof p.responseJSON.codcartus != 'undefined')

@@ -479,23 +479,23 @@ body {
 }
 
 .numebox {
-    top: 64px;
+    top: 74px;
     left: 250px;
 }
 
 .numelabel {
-    top: 78px;
-    left: 130px;
+    top: 108px;
+    left: 70px;
 }
 
 .emailbox {
-    top: 114px;
+    top: 162px;
     left: 250px;
 }
 
 .emaillabel {
-    top: 129px;
-    left: 130px;
+    top: 171px;
+    left: 70px;
 }
 
 .telefonbox {
@@ -509,13 +509,14 @@ body {
 }
 
 .cartusbox {
-    top: 214px;
+    top: 224px;
     left: 250px;
 }
 
 .cartuslabel {
-    top: 229px;
-    left: 130px;
+    top: 219px;
+    left: 70px;
+    width: 180px;
 }
 
 .forlabel {

@@ -11,7 +11,7 @@
 
 	<div class="cerc-durata-inceput">
 		<img src="/img/cerc-colors.png" />
-		<h3 class="cerc-text2">Îți dorești că materialele tale să dureze în timp?</h3>
+		<h3 class="cerc-text2"> Îți dorești ca echipamentele tale să reziste mai mult în timp?</h3>
 	</div>
 
 	<div class="cerc-durata-final">

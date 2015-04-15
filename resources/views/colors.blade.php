@@ -12,7 +12,7 @@
 	</div>
 
 	<div>
-		<h2 class="culori-intense">Iti doresti culori intense ?</h2>
+		<h2 class="culori-intense">Îți dorești culori intense ?</h2>
 	</div>
 
 	<div class="cerc">
