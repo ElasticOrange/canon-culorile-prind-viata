@@ -4,7 +4,7 @@
 <div class="sharp">
 	<div class="slider">
 			<div class="sageata">
-				<img src="/img/mutasidescoperacalitatea.jpg" />
+				<img src="/img/mutasidescoperacalitatea.png" />
 			</div>
 	</div>
 	

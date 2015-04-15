@@ -265,7 +265,15 @@ body {
 .sageata {
     position: absolute;
     z-index: 3;
-    top: -15.5px;
+    top: -34.5px;
+    /*left: 10px;*/
+    width: 16px;
+}
+
+.sageata2 {
+    position: absolute;
+    z-index: 3;
+    top: -44.5px;
     /*left: 10px;*/
     width: 16px;
 }
@@ -544,8 +552,17 @@ body {
 .sly {
     position: absolute;
     z-index: 3;
-    top: -35.5px;
+    top: -54px;
     color: white;
+    margin-left: 25px;
+}
+
+.sly2 {
+    position: absolute;
+    z-index: 3;
+    top: -64px;
+    color: white;
+    margin-left: 15px;
 }
 
 .warning {

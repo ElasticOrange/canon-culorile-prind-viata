@@ -3,10 +3,10 @@
 @section('content')
 <div class="durata">
 	<div class="slider">
-		<div class="sageata">
-			<img src="/img/mutasidescoperadurata.jpg" />
+		<div class="sageata2">
+			<img src="/img/mutasidescoperadurata.png" />
 		</div>
-		<span class="sly">0 ani</span>
+		<span class="sly2">0 ani</span>
 	</div>
 
 	<div class="cerc-durata-inceput">
@@ -36,9 +36,9 @@ $('.slider').slider({
 });
 
 function handleSliderChange(event, slider){
-	$(".sageata").css('left', slider.value + '%');
-	$(".sly").text(slider.value*3+30 + " ani");
-	$(".sly").css('left', slider.value + '%');
+	$(".sageata2").css('left', slider.value + '%');
+	$(".sly2").text(slider.value*3+30 + " ani");
+	$(".sly2").css('left', slider.value + '%');
 	$(".nevoie").css('opacity', slider.value/100+0.10);
 
 	if (($(".nevoie").css('opacity') >= '0.15') && ($(".nevoie").css('opacity') <= '0.25'))

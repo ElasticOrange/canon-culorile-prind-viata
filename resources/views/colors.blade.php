@@ -4,7 +4,7 @@
 <div class="colorstop">
 	<div class="slider">
 			<div class="sageata">
-				<img src="/img/sageata-slider2.jpg" />
+				<img src="/img/sageata-slider2.png" />
 			</div>
 	</div>
 	
@@ -29,14 +29,14 @@
 $('.slider').slider({
 	range: true,
 	min: 0,
-	max: 90,
+	max: 95,
 	value: 1,
     slide: handleSliderChange
 });
 
 function handleSliderChange(event, slider){
           $(".sageata").css('left', slider.value + '%');
-          $(".ascuns").css('opacity', slider.value/100+0.10);
+          $(".ascuns").css('opacity', slider.value/100+0.05);
 
           if ($(".ascuns").css('opacity') >= '0.95') 
           	{
