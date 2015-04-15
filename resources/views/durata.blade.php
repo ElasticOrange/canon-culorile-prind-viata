@@ -16,7 +16,7 @@
 
 	<div class="cerc-durata-final">
 		<img src="/img/cerc-colors.png" />
-		<h3 class="cerc-text-durata-final">Felicitări! Ai descoperit avantajele consumabilelor Canon! Înscrie în concurs codul consumabilului tău și câștigă multe premii!</h3>
+		<h3 class="cerc-text-durata-final">Felicitări! Ai descoperit avantajele consumabilelor originale Canon! Înscrie în concurs codul consumabilului tău și câștigă multe premii!</h3>
 		<a href="/inscriere">
 			<h3 class="text-buton-cerc">Mai departe</h3>
 			<img class= "buton-cerc" src="/img/homebuton.png" />

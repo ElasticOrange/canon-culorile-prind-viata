@@ -649,7 +649,7 @@ body {
     position: absolute;
     font-size: 12px;
     color: black;
-    top: 412px;
+    top: 506px;
     margin-bottom: 10px;
 }
 
@@ -691,4 +691,10 @@ body {
     top: 20px;
     left: 217px;
     font-size: 29px;
+}
+
+.logo-cannon {
+    top: 380px;
+    left: 505px;
+    position: absolute;
 }
