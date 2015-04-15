@@ -44,11 +44,11 @@ function handleSliderChange(event, slider){
 
 	if (($(".ascuns").css('opacity') >= '0.15') && ($(".ascuns").css('opacity') <= '0.25'))
 		{
-			return $(".cerc-colors-inceput").hide();
+			$(".cerc-colors-inceput").hide();
 		}
 		else if ($(".ascuns").css('opacity') >= '0.9')
 		{
-			return $(".cerc").show();
+			$(".cerc").show();
 		}
 }
 </script>

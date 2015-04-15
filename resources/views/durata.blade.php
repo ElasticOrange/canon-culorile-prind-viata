@@ -38,17 +38,26 @@ $('.slider').slider({
 function handleSliderChange(event, slider){
 	$(".sageata2").css('left', slider.value + '%');
 	$(".sly2").css('left', slider.value + '%');
-	$(".sly2").text(slider.value*3+30 + " ani");
 	$(".nevoie").css('opacity', slider.value/100+0.10);
 
 	if (($(".nevoie").css('opacity') >= '0.15') && ($(".nevoie").css('opacity') <= '0.25'))
 	{
-		return $(".cerc-durata-inceput").hide();
+		$(".cerc-durata-inceput").hide();
 	}
 	else if ($(".nevoie").css('opacity') >= '0.9') 
 	{
-		return $(".cerc-durata-final").show();
-		return $(".sly2").text("depinde de tine");
+		$(".cerc-durata-final").show();
+	}
+
+	if (slider.value == 90)
+	{
+		$(".sly2").text("depinde de tine");
+		$(".sly2").css('top', '-84px');
+	}
+	else
+	{
+		$(".sly2").text(slider.value*3+30 + " ani");
+		$(".sly2").css('top', '-64px');
 	}
 }
 </script>
