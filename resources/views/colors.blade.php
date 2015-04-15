@@ -11,8 +11,9 @@
 	<div class="ascuns">
 	</div>
 
-	<div>
-		<h2 class="culori-intense">Îți dorești culori intense ?</h2>
+	<div class="cerc-colors-inceput">
+		<img src="/img/cerc-colors.png" />
+		<h3 class="cerc-text-colors">Îți dorești culori intense ?</h3>
 	</div>
 
 	<div class="cerc">
@@ -24,7 +25,6 @@
 		</a>
 	</div>
 </div>
-<!-- .css('width', slider.value/100*465+235 + 'px') -->
 <script>
 $('.slider').slider({
 	range: true,
@@ -38,13 +38,13 @@ function handleSliderChange(event, slider){
           $(".sageata").css('left', slider.value + '%');
           $(".ascuns").css('opacity', slider.value/100+0.05);
 
-          if ($(".ascuns").css('opacity') >= '0.95') 
+          if (($(".ascuns").css('opacity') >= '0.15') && ($(".ascuns").css('opacity') <= '0.25'))
+          	{
+          		return $(".cerc-colors-inceput").hide();
+          	}
+          	else if ($(".ascuns").css('opacity') >= '0.9')
           	{
           		return $(".cerc").show();
-          	}
-          	else if ($(".ascuns").css('opacity') >= '0.15')
-          	{
-          		return $(".culori-intense").hide();
           	}
 }
 </script>

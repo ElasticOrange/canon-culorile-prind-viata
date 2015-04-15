@@ -4,7 +4,7 @@
 <div class="hometop">
 	<!-- <img src="/img/homeheader.png" /> -->
 	<div class="cerc-home">
-		<img src="/img/bulina_pag1.png" />
+		<!-- <img src="/img/bulina_pag1.png" /> -->
 	<a href="/colors">
 		<img src="/img/homebuton.png" class="homebuton" />
 		<h4 class="homelink">Intră în aplicaţie</h4>

@@ -10,8 +10,9 @@
 	
 	<div class="ascuns2"></div>
 
-	<div>
-		<h2 class="materiale-calitate">Îți dorești materiale de calitate ?</h2>
+	<div class="cerc-sharp-inceput">
+		<img src="/img/bulina_diagrame.png" />
+		<h3 class="cerc-text2-inceput">Îți dorești materiale de calitate ?</h3>
 	</div>
 
 	<div class="cerc-sharp">
@@ -38,14 +39,14 @@ function handleSliderChange(event, slider){
           $(".sageata").css('left', slider.value + '%');
           $(".ascuns2").css('opacity', slider.value/100+0.10);
 
-          if ($(".ascuns2").css('opacity') >= '0.95') 
+          if (($(".ascuns2").css('opacity') >= '0.15') && ($(".ascuns2").css('opacity') <= '0.25'))
+          	{
+          		return $(".cerc-sharp-inceput").hide();
+          	}
+          	else if ($(".ascuns2").css('opacity') >= '0.9')
           	{
           		return $(".cerc-sharp").show();
           	}
-          	else if ($(".ascuns2").css('opacity') >= '0.15')
-          	{
-          		return $(".materiale-calitate").hide();
-          	};
 }
 </script>
 @endsection
