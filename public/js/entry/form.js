@@ -21,8 +21,9 @@ $(document).ready(function() {
                 {
                     if(s.status === 'OK')
                     {
-                        // $('[data-form=true]').hide();
-                        // $('.invizibil').show();
+                        $('[data-form=true]').hide();
+                        $('.text-incriere').hide();
+                        $('.invizibil').show();
                         console.log("OK");
                     }
                     else

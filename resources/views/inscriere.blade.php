@@ -16,9 +16,15 @@
 
 		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked"> 
 		<h2 class="checkbox3">Doresc să fiu contactat de către Canon România</h2>
+		<h2 class="steluta">* Pentru validarea premiului, păstrează dovada plătii consumabilului tău.</h2>
 	    
 	    <button type="submit" data-buton="true" class="btn-trimite">TRIMITE</button>
 	</form>
+	<div class="invizibil">
+		<img src="/img/bulina_diagrame.png" />
+	    <h3 class="felicitari">Felicitări! Te-ai înscris în cursa pentru a câștiga premiile noastre! 
+	    Urmărește pagina noastră de Facebook și află dacă ești unul dintre câstigători</h3>
+	</div>
 </div>
 @endsection
 
