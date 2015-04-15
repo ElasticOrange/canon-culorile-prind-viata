@@ -3,7 +3,7 @@
 @section('content')
 <div class="durata">
 	<div class="slider">
-		<div class="sageata2">
+		<div class="sageata-durata">
 			<img src="/img/mutasidescoperadurata.png" />
 		</div>
 		<span class="sly2">0 ani</span>
@@ -36,7 +36,7 @@ $('.slider').slider({
 });
 
 function handleSliderChange(event, slider){
-	$(".sageata2").css('left', slider.value + '%');
+	$(".sageata-durata").css('left', slider.value + '%');
 	$(".sly2").css('left', slider.value + '%');
 	$(".nevoie").css('opacity', slider.value/100+0.10);
 

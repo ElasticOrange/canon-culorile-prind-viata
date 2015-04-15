@@ -20,7 +20,7 @@
 
 	<div class="cerc">
 		<img src="/img/cerc-colors.png" />
-		<h3 class="cerc-text">Consumabilele Canon au culori intense</h3>
+		<h3 class="cerc-text-original">Consumabilele originale Canon oferă culori intense</h3>
 		<a href="/sharpness">
 			<h3 class="text-buton-cerc">Mai departe</h3>
 			<img class= "buton-cerc" src="/img/homebuton.png" />
