@@ -10,7 +10,7 @@
 		<h2 class="consumabile-text">Folosind consumabile originale Canon, beneficiezi de culori intense, calitate 
 		şi durabilitate în imprimarea materialelor tale.</h4>
 		<h4 class="steluta">* Produsele participante în promoţie sunt: consumabile originale pentru produsele din gama MAXIFY, PIXMA şi i-SENSYS.</h4>
-		<h4 class="steluta2">** Perioada promoţiei: 15 aprilie - 30 mai 2015.</h4>
+		<h4 class="steluta2">** Perioada promoţiei: 15 aprilie - 15 iunie 2015.</h4>
 	<img src="/img/logo-cannon.png"class="logo-cannon" />
 	<a target="_blank" href="/doc/Regulamentulcampaniei-Culorileprindviata.pdf" class="regulament">Regulament</a>
 </div>
