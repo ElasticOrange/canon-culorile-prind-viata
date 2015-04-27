@@ -25,6 +25,7 @@ $(document).ready(function() {
                         $('.text-incriere').hide();
                         $('.invizibil').show();
                         console.log("OK");
+                        _gaq.push(['_trackEvent', 'inscriere', 'succes']);
                     }
                     else
                     {
