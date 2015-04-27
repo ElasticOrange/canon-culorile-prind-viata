@@ -13,6 +13,10 @@
 		
 		<label for="codcartus" class="forlabel cartuslabel">Codul consumabilului tău</label>
 		<input type="text" value="{{ old('codcartus') }}" data-codcartus="true" name="codcartus" class="form-control cartusbox">
+		<div class="question">
+			<img src="/img/helppoint.png" />
+			<img src="/img/codconsumabil.png" class="question-popup" />
+		</div>
 
 		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked"> 
 		<h2 class="checkbox3">Doresc să fiu contactat de către Canon România</h2>
@@ -28,5 +32,16 @@
 @endsection
 
 @section('js')
+<script>
+	$('.question').on('mouseover', function(e)
+	{
+		$('.question-popup').show();
+	});
+
+	$('.question').on('mouseout', function(e)
+	{
+		$('.question-popup').hide();
+	});
+</script>
 <script src="/js/entry/form.js"></script>
 @endsection

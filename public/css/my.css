@@ -706,3 +706,18 @@ body {
     left: 505px;
     position: absolute;
 }
+
+.question {
+    position: absolute;
+    left: 550px;
+    top: 208px;
+    cursor: help;
+}
+
+.question-popup {
+    display: none;
+    z-index: 7;
+    position: absolute;
+    left: -432px;
+    top: -141px;
+}
