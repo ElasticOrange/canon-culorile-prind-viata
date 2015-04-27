@@ -3,6 +3,9 @@
 @section('content')
 <div class="durata">
 	<div class="slider">
+		<div class="trage">
+			<img src="/img/tragedebulina.png" />
+		</div>
 		<div class="sageata-durata">
 			<img src="/img/mutasidescoperadurata.png" />
 		</div>
@@ -58,6 +61,11 @@ function handleSliderChange(event, slider){
 	{
 		$(".sly2").text(slider.value*3+30 + " ani");
 		$(".sly2").css('top', '-64px');
+	}
+
+	if (slider.value >= 0.05)
+	{
+		$(".trage").hide();
 	}
 }
 </script>

@@ -272,6 +272,14 @@ body {
     left: 235px;
 }
 
+.trage {
+    position: absolute;
+    z-index: 7;
+    top: -64.5px;
+    left: 80px;
+    width: 16px;
+}
+
 .sageata {
     position: absolute;
     z-index: 7;

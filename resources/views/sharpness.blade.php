@@ -3,6 +3,9 @@
 @section('content')
 <div class="sharp">
 	<div class="slider">
+		<div class="trage">
+			<img src="/img/tragedebulina.png" />
+		</div>
 		<div class="sageata">
 			<img src="/img/mutasidescoperacalitatea.png" />
 		</div>
@@ -50,6 +53,11 @@ function handleSliderChange(event, slider){
 		{
 			$(".cerc-sharp").show();
 		}
+		
+	if (slider.value >= 0.05)
+	{
+		$(".trage").hide();
+	}
 }
 </script>
 @endsection
